@@ -6,7 +6,7 @@ O programa utiliza as informações de conexão fornecidas, incluindo o endereç
 
 A mensagem a ser enviada é um objeto JSON com campos como "name", "login_id" e "group". Após enviar a mensagem, o programa imprime no console se a operação foi bem-sucedida ou se houve algum erro durante o processo de envio.
 
-Requisitos e Notas Importantes:
+# Requisitos e Notas Importantes:
 
 Certifique-se de que a biblioteca Confluent.Kafka esteja instalada no projeto para utilizar as funcionalidades do Kafka em C#.
 As informações de autenticação (usuário, senha, endpoint) devem ser precisas para garantir uma conexão segura e bem-sucedida ao cluster Kafka no Azure Service Bus.
